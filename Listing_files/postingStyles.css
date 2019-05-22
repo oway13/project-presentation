@@ -1,0 +1,301 @@
+﻿
+.postingsList {
+	list-style: none;
+}
+
+.label, #AppliTrackOutput .label
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+
+#AppliTrackOutput #AppliTrackListCaption
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: Arial,Helvetica;
+    padding:10px;
+}
+
+#AppliTrackOutput .title
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14pt;
+    FONT-STYLE: italic;
+    FONT-FAMILY: 'Times New Roman';
+    BACKGROUND-COLOR: #fdf5e6
+}
+#AppliTrackOutput .title2
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #fdf5e6
+}
+#AppliTrackOutput .normal, .AppliTrackJobPostingAttachments
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+#AppliTrackOutput .normal FONT
+{
+    FONT-FAMILY: Arial
+}
+#AppliTrackOutput .normal TD
+{
+	font-size: 10pt;
+}
+#AppliTrackOutput .normal P
+{
+    MARGIN: 0px;
+    display:block
+}
+#AppliTrackOutput .categorylinks
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: Arial, Helvetica
+}
+#AppliTrackOutput .categorylinks A:hover
+{
+    COLOR: red
+}
+#AppliTrackOutput .categorylinks .title
+{
+    FONT-SIZE: 14pt
+}
+#AppliTrackOutput .CategoryLinks UL LI
+{
+    LIST-STYLE-IMAGE: url(/OLACommon/images/hppointer.gif)
+}
+#AppliTrackOutput .AppliTrackListHeader
+{
+    FONT-SIZE: 14pt;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline;
+    text-align:center;
+    margin:0px 0px 0px 10px;
+}
+#AppliTrackOutput .noprint
+{
+    display: none;
+}
+.AppliTrackSearchBG, #AppliTrackOutput .AppliTrackSearchBG
+{
+	height: 31px;
+	background-image: url(/OLACommon/JobPostings/SortBG.gif);
+    border-left: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+	border-top: 1px solid #EBEBEB;
+	border-bottom: 1px solid #C7C7C7;
+	width: 100%;
+}
+#AppliTrackOutput .AppliTrackSearchBG a
+{
+	color: #999999
+}
+#AppliTrackOutput .AppliTrackSearchBG table
+{
+	padding-bottom: 0px;
+}
+#AppliTrackOutput .ApplyButton {
+	Background-Color: #b10000; Font-Size: 9pt;  font-weight:bold; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000;
+}
+
+#AppliTrackOutput #AppliTrackSearchContainer .button{
+	font-size:10pt;
+	font-weight:bold;
+	color: #333;
+	padding:3px 3px;
+	border: solid 1px #666;
+	background-color: #eee;
+	font-family:arial,helvetica,tahoma;
+}
+
+#AppliTrackOutput #AppliTrackSearchContainer div.button:hover{
+	background-color: #ff8c00;
+	color:#000;	
+	border: solid 1px #000;
+}
+
+#AppliTrackOutput #AppliTrackSearchAdvancedHeaderCollapsed, #AppliTrackOutput #AppliTrackSearchAdvancedHeaderExpanded{
+	height:20px;
+	margin:2px 4px 10px 0px;
+	font-size:10px;
+	line-height:18px;
+	font-family:arial,helvetica,tahoma;
+	text-align:right;
+	padding-right:16px;
+	color:#999;
+	opacity:.7;
+	filter:alpha(opacity=70);
+	cursor:pointer;
+}
+#AppliTrackOutput #AppliTrackSearchAdvancedHeaderCollapsed{
+	background: url(/OLACommon/JobPostings/AdvancedSearchBGCollapsed.png) top right no-repeat;
+	margin-top:-2px;
+}
+#AppliTrackOutput #AppliTrackSearchAdvancedHeaderExpanded{
+	background: url(/OLACommon/JobPostings/AdvancedSearchBGOpen.png) top right no-repeat;
+	margin-top:-2px;
+}
+#AppliTrackOutput #AppliTrackSearchAdvancedContainer
+{
+	background: url(/OLACommon/JobPostings/SortBG.gif)  0px -18px repeat-x;
+    border: 1px solid #EBEBEB;
+	border-bottom: 1px solid #C7C7C7;
+	padding:10px;
+}
+
+#AppliTrackOutput #AppliTrackSearchAdvancedContainer .section{
+	margin-bottom:4px;
+}
+
+#AppliTrackOutput #AppliTrackSearchAdvancedContainer .label{
+	color:#999;
+	margin:0 4px;
+	font-weight:bold;
+	font-size:10pt;
+	line-height:24px;
+}
+
+#AppliTrackOutput #AppliTrackSearchAdvancedContainer .fixedCol1{
+	width:112px;
+	display:inline-block;
+	text-align:right;
+}
+
+
+
+#AppliTrackOutput #AppliTrackSearchAdvancedContainer .header{
+	color:#666;
+	margin:4px 4px;
+	font-weight:normal;
+	font-size:8pt;
+	font-family:arial,verdana;
+	text-decoration:underline;
+}
+
+
+
+#AppliTrackOutput #AppliTrackSearchAdvancedContainer input, #AppliTrackOutput #AppliTrackSearchAdvancedContainer select, #AppliTrackOutput #AppliTrackSearchAdvancedContainer .data{
+	margin:4px 4px;
+	font-weight:bold;
+	font-size:9pt;
+	font-family:arial,verdana;
+}
+
+#AppliTrackOutput .subnotetext
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: justify;
+}
+#AppliTrackOutput #InternalApplicationsDiv
+{
+	border:1px solid #999999;
+	background-color: #fcfcfc;
+	padding: 10px;
+}
+
+#AppliTrackOutput .AppliTrackInternalHeader
+{
+	color:red;
+}
+
+@media screen {
+	#AppliTrackOutput  .printOnly {
+		display: none;
+	}
+}
+
+@media print {
+	#AppliTrackOutput  .printOnly {
+		display: block;
+		page-break-before: always; 
+		background: blue;
+	}
+	#AppliTrackOutput  .screenOnly {
+		display: none;
+	}
+}
+
+#AppliTrackOutput .AppliTrackPostingTable{
+	font-family:arial, helvetica;
+	border:solid 2px #ccc;
+	width:100%;
+}
+#AppliTrackOutput .AppliTrackPostingTable thead{
+	font-size:.9em;
+	background-color:#ccc;
+}
+#AppliTrackOutput .AppliTrackPostingTable thead th{
+	font-size:10pt;
+	text-align:left;
+	white-space:nowrap;
+	padding:5px;
+	font-weight:normal;
+	color:#666;
+}
+#AppliTrackOutput .AppliTrackPostingTable thead th a{
+	text-decoration:none;
+	color:#66C;
+}
+#AppliTrackOutput .AppliTrackPostingTable thead th a:hover{
+	text-decoration:underline;
+	color:#66C;
+}
+#AppliTrackOutput .AppliTrackPostingTable tbody{
+	font-size:8pt;
+	font-weight:bold;
+}
+#AppliTrackOutput .AppliTrackPostingTable tbody .title{
+	font-size:10pt;
+	margin-bottom:4px;
+	font-weight:bold;
+	background-color:transparent;
+	font-style:normal;
+	font-family:arial, helvetica;
+	display:block;
+}
+#AppliTrackOutput .AppliTrackPostingTable tbody .title a{
+	margin-left:6px;
+	font-weight:normal;
+}
+
+
+#AppliTrackOutput .AppliTrackPostingTable tbody .label{
+	font-size:8pt;
+	color:#666;
+	font-weight:normal;
+}
+#AppliTrackOutput .AppliTrackPostingTable td{
+	padding:5px;
+}
+#AppliTrackOutput .AppliTrackPostingTable tbody tr.even td{
+	background-color:#eee;
+}
+
+#AppliTrackOutput .AppliTrackPostingTable tbody tr.odd td{
+	background-color:#fff;
+}
+
+.AppliTrackJobPostingAttachments{
+    float:right; 
+    width:200px; 
+    border-left: dotted 1px #999; 
+    padding-left:5px;
+}
+.AppliTrackJobPostingAttachments ul{
+    padding-left: 5px; 
+    margin: 0px 0px 0px 10px;
+}
+
+#AppliTrackOutput .addthis_toolbox {
+    width: 150px;
+    display: inline-block;
+}
+#AppliTrackOutput .addthis_toolbox a {
+    float: right !important;
+}
